@@ -25,7 +25,7 @@ const TableBody = (props) => {
     return <tbody>{rows}</tbody>
 };
 const Table = (props) => {
-        const {characterData, removeCharacter} = props; 
+        const { characterData, removeCharacter } = props; 
         return ( 
             <table>
                 <TableHeader />

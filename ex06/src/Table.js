@@ -22,7 +22,7 @@ const TableBody = (props) => {
             </tr>
         );
     });
-    return <tbody>{rows}</tbody>
+    return <tbody>{rows}</tbody>;
 };
 const Table = (props) => {
         const { characterData, removeCharacter } = props; 

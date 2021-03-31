@@ -6,7 +6,7 @@ class SimpleForm extends Component {
         this.state = { name: "Yoda" };
     }
     onChangeHandler = (event) => {
-        this.setState({ name: event.target.value});
+        this.setState({ name: event.target.value });
     }
     render() { 
         return ( 
